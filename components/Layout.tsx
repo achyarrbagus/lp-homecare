@@ -23,7 +23,7 @@ function Layout({
         <main
           className="w-full mx-auto h-auto"
           style={{
-            height: "290vh",
+            height: "300vh",
             marginTop: "10px",
             backgroundColor: "rgb(236 250 248)",
           }}
