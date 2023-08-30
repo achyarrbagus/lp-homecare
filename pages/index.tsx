@@ -70,7 +70,7 @@ const Index: NextPage = () => {
               di Rumah <br /> Kamu
             </h1>
             <h1
-              className="p-4 font-poppins text-sm font-bold text-justify "
+              className="p-4 font-poppins text-sm font-medium text-justify "
               style={{ width: "270px" }}
             >
               Kami memberikan pelayanan medis kepada kamu yang membutuhkan tanpa
@@ -324,9 +324,10 @@ const Index: NextPage = () => {
                 border: "",
                 backgroundColor: "#00BAB9",
                 height: "auto",
+                padding: "2px",
               }}
             >
-              <div className="flex p-3">
+              <div className="flex p-3 ">
                 <div className="w-32 h-full flex justify-end">
                   <Image src={Help} alt="help-button" className="w-7 h-7" />
                 </div>
@@ -341,7 +342,7 @@ const Index: NextPage = () => {
                 <div className="">
                   <Image src={WaLogo} alt="wa-log" width={20} />
                 </div>
-                Hubungi melalui WhatsApp
+                <h1>Hubungi melalui WhatsApp</h1>
               </div>
             </div>
           </section>
@@ -365,7 +366,7 @@ const Index: NextPage = () => {
               </div>
             </div>
             <div className="h-auto flex-col justify-end  w-full mt-3">
-              <h1 className="text-left flex justify-end w-full  font-poppins font-light text-medium h-16">
+              <h1 className="text-left flex justify-end w-full  font-poppins font-normal text-medium h-16">
                 Member of Aliansi Telemedik Indonesia
               </h1>
               <div className=" mt-2">
@@ -383,7 +384,10 @@ const Index: NextPage = () => {
                 Alamat Kami
               </h1>
               <h2 className="font-poppins font-thin text-sm">
-                Klinik Cepat Sehat Jl. Peternakan No.13 RT.5/RW.1 Kp.Tengah,Kec.
+                <span className="font-poppins font-semibold text-lg">
+                  Klinik Cepat
+                </span>{" "}
+                <br /> Sehat Jl. Peternakan No.13 RT.5/RW.1 Kp.Tengah,Kec.
                 <br /> Kramat Jati, Jakarta. Daerah Khusus Ibukota Jakarta 13540
                 0822 1118 9009
               </h2>
