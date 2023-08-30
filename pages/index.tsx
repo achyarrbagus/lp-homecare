@@ -321,7 +321,7 @@ const Index: NextPage = () => {
             <div
               className="rounded-lg flex-col justify-center gap-2"
               style={{
-                border: "solid 1px black",
+                border: "",
                 backgroundColor: "#00BAB9",
                 height: "auto",
               }}
